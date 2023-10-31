@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\API"
+    "\\API",
+    "\\API\\Controllers"
   ],
-  "SelectedNode": "\\Emerald.sln",
+  "SelectedNode": "\\API\\Controllers\\ErrorController.cs",
   "PreviewInSolutionExplorer": false
 }
