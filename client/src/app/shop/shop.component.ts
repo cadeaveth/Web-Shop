@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Product } from '../shared/models/product';
+import { IProduct } from '../shared/models/product';
 import { ShopService } from './shop.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { ShopService } from './shop.service';
   styleUrls: ['./shop.component.scss']
 })
 export class ShopComponent {
-  products: Product[] = [];
+  products: IProduct[] = [];
 
 
   constructor(private shopService: ShopService){}
