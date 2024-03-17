@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import {IProduct} from 'src/app/shared/models/product';
+import { IProduct } from 'src/app/shared/models/product';
 
 @Component({
   selector: 'app-product-item',
@@ -7,12 +7,5 @@ import {IProduct} from 'src/app/shared/models/product';
   styleUrls: ['./product-item.component.scss']
 })
 export class ProductItemComponent {
-  @Input() product: IProduct | undefined;
-
-  constructor(){
-
-  }
-    ngOnInit(){
-
-  }
+  @Input() product?: IProduct;
 }
